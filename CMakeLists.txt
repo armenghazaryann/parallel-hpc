@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 4.1)
+project(parallel_hpc C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(array_of_pointers pointers-memory-allocation/array_of_pointers.c)
+add_executable(basics_of_pointers pointers-memory-allocation/basics_of_pointers.c)
+add_executable(dynamic_memory_allocation pointers-memory-allocation/dynamic_memory_allocation_with_pointers.c)
+add_executable(pointer_arithmetic pointers-memory-allocation/pointer_arithmetic.c)
+add_executable(pointers_and_functions pointers-memory-allocation/pointers_and_functions.c)
+add_executable(pointers_to_pointers pointers-memory-allocation/pointers_to_pointers.c)
+add_executable(string_manipulation pointers-memory-allocation/string_manipulation_with_pointers.c)
